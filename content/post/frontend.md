@@ -1,5 +1,5 @@
 ---
-title: "Frontend"
+title: "前端学习笔记"
 date: 2022-05-21T01:36:02+08:00
 draft: false
 tags: ["前端","HTML","CSS","JavaScript"]
@@ -114,5 +114,3 @@ categories: ["前端","笔记"]
 ### 版权信息
 
 本文原载于xiaozhatecpp.fun，转载请注明出处。
-
-
