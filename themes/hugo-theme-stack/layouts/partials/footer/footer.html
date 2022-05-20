@@ -6,6 +6,12 @@
             {{ .Site.Params.footer.since }} - 
         {{ end }}
         {{ now.Format "2006" }} {{ .Site.Title }}
+        {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
+        {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
+        <br/>
+        <span id="busuanzi_container_site_{{ 算法 }}">  
+            本文总阅读量<span id="busuanzi_value_site_{{ 算法 }}"></span>次
+        </span>
     </section>
     
     <section class="powerby">
@@ -21,3 +27,4 @@
         {{ T "footer.designedBy" (dict "Theme" $Theme "DesignedBy" $DesignedBy) | safeHTML }}
     </section>
 </footer>
+
