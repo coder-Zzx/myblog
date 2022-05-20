@@ -1,4 +1,5 @@
 ![Stack](https://i.imgur.com/cCiHOGS.jpg)
+
 # Hugo Theme Stack
 
 > Card-style Hugo theme designed for bloggers.
@@ -41,9 +42,10 @@ It's necessary to use **Hugo Extended ≥ 0.87.0**.
 ## Installation
 
 * Route 1: Clone / Download this repository to `themes` folder
-* Route 2: Turn your site into a hugo module and add this theme as a module dependency
 
- Edit your site config following `exampleSite/config.yaml`.
+* Route 2: Turn your site into a hugo module and add this theme as a module dependency
+  
+  Edit your site config following `exampleSite/config.yaml`.
 
 *Note: Remove `config.toml` if there is one in the site folder.*
 
@@ -67,22 +69,22 @@ Your support is greatly appreciated :)
 
 ## Thanks to
 
-| Project | Description | Licence |
-| ------- | ----------- | ------- |
-| [PhotoSwipe](https://photoswipe.com/) | For the lightbox effect | [MIT](https://github.com/dimsemenov/PhotoSwipe/blob/master/LICENSE) |
-| [Normalize.css](https://github.com/necolas/normalize.css) | - | [MIT](https://github.com/necolas/normalize.css/blob/master/LICENSE.md) |
-| [Node Vibrant](https://github.com/Vibrant-Colors/node-vibrant) | To extract the color from images | [MIT](https://github.com/Vibrant-Colors/node-vibrant/blob/master/LICENSE.md)
-| [Tabler icons](https://github.com/tabler/tabler-icons) | Default menu icons | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE) |
-| [jonsuh/hamburgers](https://github.com/jonsuh/hamburgers) | Hamburger icon of menu | [MIT](https://github.com/jonsuh/hamburgers/blob/master/LICENSE) |
-| [lepture/yue.css](https://github.com/lepture/yue.css) | Part of it is used for styling article content | MIT |
-| [Typlog](https://typlog.com/) | Where the markdown gallery syntax is borrowed from | The author gave me the permission | 
-| [Pure CSS implementation of Google Photos / 500px image layout](https://github.com/xieranmaya/blog/issues/6) | Used for image gallery | - |
+| Project                                                                                                      | Description                                        | Licence                                                                      |
+| ------------------------------------------------------------------------------------------------------------ | -------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [PhotoSwipe](https://photoswipe.com/)                                                                        | For the lightbox effect                            | [MIT](https://github.com/dimsemenov/PhotoSwipe/blob/master/LICENSE)          |
+| [Normalize.css](https://github.com/necolas/normalize.css)                                                    | -                                                  | [MIT](https://github.com/necolas/normalize.css/blob/master/LICENSE.md)       |
+| [Node Vibrant](https://github.com/Vibrant-Colors/node-vibrant)                                               | To extract the color from images                   | [MIT](https://github.com/Vibrant-Colors/node-vibrant/blob/master/LICENSE.md) |
+| [Tabler icons](https://github.com/tabler/tabler-icons)                                                       | Default menu icons                                 | [MIT](https://github.com/tabler/tabler-icons/blob/master/LICENSE)            |
+| [jonsuh/hamburgers](https://github.com/jonsuh/hamburgers)                                                    | Hamburger icon of menu                             | [MIT](https://github.com/jonsuh/hamburgers/blob/master/LICENSE)              |
+| [lepture/yue.css](https://github.com/lepture/yue.css)                                                        | Part of it is used for styling article content     | MIT                                                                          |
+| [Typlog](https://typlog.com/)                                                                                | Where the markdown gallery syntax is borrowed from | The author gave me the permission                                            |
+| [Pure CSS implementation of Google Photos / 500px image layout](https://github.com/xieranmaya/blog/issues/6) | Used for image gallery                             | -                                                                            |
 
 ### References
 
 Some references that I took while building this theme:
 
-| Project | Licence|
-| ------- | ------|
+| Project                                                                     | Licence                                                                  |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
 | [artchen/hexo-theme-element](https://github.com/artchen/hexo-theme-element) | [MIT](https://github.com/artchen/hexo-theme-element/blob/master/LICENSE) |
-| [MunifTanjim/minimo](https://github.com/MunifTanjim/minimo) | [MIT](https://github.com/MunifTanjim/minimo/blob/master/LICENSE) |
+| [MunifTanjim/minimo](https://github.com/MunifTanjim/minimo)                 | [MIT](https://github.com/MunifTanjim/minimo/blob/master/LICENSE)         |
