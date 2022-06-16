@@ -127,7 +127,157 @@ categories: ["前端","笔记"]
 > 
 > `href`声明跳转链接,`title`声明鼠标悬停时显示的信息,`target`声明在何处跳转,默认为_self,在当前页面跳转,也可以为_blank,在新标签页中跳转
 
+### 表格标签
+
+> `<table>``<tr>``<td>`
+> 
+> `<tr>`表示行,`<td>`表示单元格
+> 
+> `<table>`里面只能放`<tr>`,`<tr>`里面只能放`<td>`,`<td>`里面可以嵌套其他标签
+> 
+> `table`属性:
+> 
+> - 宽度width,可以是相对于父元素的父元素
+> 
+> - 高度height
+> 
+> - 外边框粗border
+> 
+> - 对齐align
+> 
+> - 外边框颜色bordercolor
+> 
+> - 单元格间距离cellspaces
+> 
+> `tr`属性:
+> 
+> - 高度height
+> 
+> - 背景色bgcolor
+> 
+> - 竖向对齐valign
+> 
+> `td`属性:
+> 
+> - 宽度width,影响一整列宽度
+> 
+> - 高度height,影响一整行高度
+> 
+> - 行单元格colspan,合并列单元格
+> 
+> - 列单元格rowspan,合并行单元格
+
+### 表单标签
+
+> `<form>`双标签
+> 
+> 1. `<input>`
+>    
+>    单标签,属性:
+>    
+>    `type`:text,password,submit
+>    
+>    `placeholder`:显示的文字,
+>    
+>    `value`:按钮显示的文字
+>    
+>    `name`
+
 ****
+
+## CSS
+
+### 基本语法
+
+1. 两部分:选择符+声明,声明分为属性和属性值
+
+2. 属性必须放在花括号中,属性与属性值用冒号连接,分号结束
+
+### 选择器
+
+1. 伪类选择器
+   
+   主要用于a标签
+   
+   `a:link{属性:属性值}`:超链接的初始状态
+   
+   `a:visited{属性:属性值}`访问后的状态
+   
+   `a:hover{属性:属性值}`鼠标悬停时的状态
+   
+   `a:active{属性:属性值}`超链接被激活时的状态
+   
+   > 应注意他们的顺序,正确的顺序:link->visit->hover->active
+
+2. 选择器的权重
+   
+   !important标签>行内样式>id选择器>class选择器>类型选择器
+   
+   包含选择器权重为包含的各选择器权重之和
+   
+   相同权重的选择器,遵循就近原则,哪个最后定义,就采用哪个样式
+
+### 文本属性
+
+1. `font-size`
+   
+   字体大小,单位是px,浏览器默认是16px
+
+2. `font-family`
+   
+   字体,字体名是中文名,名称中有空格时需要加双引号,多个字体用逗号连接,依次解析
+
+3. `color`
+   
+   设置字体颜色,可以使用颜色名,16进制,rgb表示颜色
+
+4. `font-weight`
+   
+   加粗.
+   
+   bolder>bold>normal,也可用数字,100-900,100-500不加粗,600-900加粗
+
+5. `font-style`
+   
+   倾斜
+   
+   italic斜体字,oblique倾斜的文字,nomal正常.
+
+### 列表属性
+
+1. `list-style-type`
+   
+   定义列表样式.
+   
+   disc:实心圆,circle:空心圆,square:方块
+
+2. `list-style-image`
+   
+   将图片设置为列表样式,list-style-image:url();
+
+3. `list-style-position`
+   
+   设置列表项标记的放置位置
+   
+   outside:默认值,列表外,inside:列表内
+
+### 背景属性
+
+1. `background-color`
+   
+   背景颜色
+
+2. `background-image`
+   
+   背景图片
+
+3. `background-repeat`
+   
+   背景平铺
+   
+   repeat:默认全部平铺,repeat-x:x轴方向平铺,repeat-y:y轴方向平铺,norepeat:不平铺
+
+4. `background-size`
 
 ## 附录
 
