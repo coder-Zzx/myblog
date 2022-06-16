@@ -1,5 +1,5 @@
 ---
-title: "Shitstyle--降低代码可读性,维护只属于你自己的代码"
+title: "Shitstyle--readablecodesgotohell"
 date: 2022-06-16T16:55:23+08:00
 draft: false
 categories: ["发疯了"]
@@ -122,5 +122,3 @@ aaa Stu{bbb:ddd score;ccc:Stu(ddd n){score=n;}Stu(){ggg;}friend hhh Tea::display
 ### 版权信息
 
 本文原载于xiaozhatecpp.fun，转载请注明出处。
-
-
